@@ -1,9 +1,0 @@
-[Unit]
-Description=Logging service writing cpu and memory every 30 seconds
-
-[Service]
-ExecStart=/usr/local/bin/s03.sh
-Restart=always
-
-[Install]
-WantedBy=multi-user.target

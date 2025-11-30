@@ -1,9 +1,0 @@
-[Unit]
-Description=Inefficient immortal file guardian
-
-[Service]
-ExecStart=/usr/local/bin/s05a.sh
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
