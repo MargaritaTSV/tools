@@ -1,0 +1,9 @@
+[Unit]
+Description=Immortal file restorer (path unit)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/s05b.sh
+
+[Install]
+WantedBy=multi-user.target

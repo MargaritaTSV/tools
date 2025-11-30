@@ -1,0 +1,9 @@
+[Unit]
+Description=Log CPU load and memory usage every 30 seconds
+
+[Service]
+ExecStart=/usr/local/bin/s03.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
