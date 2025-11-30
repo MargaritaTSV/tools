@@ -1,0 +1,8 @@
+[Unit]
+Description=Simplest service, writes to the file /var/log/alpaca.txt once
+
+[Service]
+ExecStart=/usr/local/bin/alpaca.sh
+
+[Install]
+WantedBy=multi-user.target

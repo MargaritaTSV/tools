@@ -1,0 +1,6 @@
+[Unit]
+Description=Logging service triggered by timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/s04.sh

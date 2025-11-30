@@ -1,0 +1,6 @@
+[Unit]
+Description=Restore immortal file
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/s05b.sh
