@@ -1,0 +1,10 @@
+[Unit]
+Description=Watch /var/log/immortal.txt for changes
+
+[Path]
+PathChanged=/var/log/immortal.txt
+PathExists=!/var/log/immortal.txt
+Unit=u05b.service
+
+[Install]
+WantedBy=multi-user.target
